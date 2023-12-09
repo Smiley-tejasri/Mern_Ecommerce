@@ -4,7 +4,7 @@ import Product from '../components/Product';
 //import axios from 'axios';
 import Loader from '../components/Loader';
 import Message from '../components/Message';
-import { useGetProductsQuery } from '../slices/productApiSlice';
+import { useGetProductsQuery } from '../slices/productsApiSlice';
 
 const HomeScreen = () => {
   const {data:products, isLoading, error} =useGetProductsQuery();
